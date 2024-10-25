@@ -2,15 +2,16 @@ import React, { useState } from "react";
 
 const customDictionary = {
   teh: "the",
-  wrok: 'work',
+  wrok: "work",
   fot: "for",
-  example: "example"
-}
+  exampl: "example"
+};
+
 
 function SpellCheckApp() {
 
   const [inputText, setInputText] = useState("");
-  const [suggestedText, setSuggestedText] = useState('');
+  const [suggestedText, setSuggestedText] = useState("");
 
 
   const handleInputChange = (e) =>{
